@@ -2,7 +2,7 @@ let myLinks = []
 const inputElement = document.getElementById("inputEl")
 const inputBtn = document.getElementById("inputBtn")
 const deleteBtn = document.getElementById("deleteBtn")
-const tabBtn = document.getElementById("tabBtn")
+const tabbBtn = document.getElementById("tabBtn")
 const ulEl = document.getElementById("ul-el")
 const linksInLocalStorage = localStorage.getItem('myLinks');
 
@@ -33,7 +33,7 @@ deleteBtn.addEventListener('dblclick',function(){
     myLinks =[]
     render(myLinks)
 })
-tabBtn.addEventListener('click',function(){
+tabbBtn.addEventListener('click',function(){
     chrome.extension.getURL('links.png')
     chrome.tabs.query({active:true, currentWindow:true},function(tabs){
         myLinks.push(tabs[0].url)
