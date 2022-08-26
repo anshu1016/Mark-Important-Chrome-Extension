@@ -47,4 +47,6 @@ p{
     font-style: italic;
     color:darkslategrey;
     text-align: center;
+    padding:2px;
+    margin: 1rem;
 }
