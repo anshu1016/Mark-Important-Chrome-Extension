@@ -1,0 +1,16 @@
+
+{
+    "manifest_version": 2,
+    "version_name": "3.1.2.4567",
+    "version": "1.0", 
+    "name": "Mark Important",
+    "browser_action": {
+        "default_popup": "index.html",
+        "default_icon": "links.png"
+        
+    },
+    "permissions": [
+        "tabs"
+    ],
+    "web_accessible_resources": ["links.png"]
+}

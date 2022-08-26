@@ -1,0 +1,50 @@
+body{
+    padding: 5px;
+    font-family: Arial;
+}
+input{
+    width: 100%;
+    min-width:400px;
+    box-sizing: border-box;
+    padding: 10px;
+    border: 1px solid #075985
+    ;
+    margin-bottom: 4px;
+}
+button{
+    padding: 10px 20px;
+    background: #075985
+    ;
+    border: 1px solid #075985
+    ;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+ul{
+    list-style-type:circle;
+    list-style: disc;
+    margin-top: 8px;
+
+}
+li{
+    font-family:cursive;
+    font-size: medium;
+    padding: 0.5rem;
+    margin: 5px;
+    font-weight: bold;
+    color:#075985
+    
+}
+a{
+    cursor:pointer;
+    
+}
+p{
+    text-decoration: double;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: x-large;
+    font-style: italic;
+    color:darkslategrey;
+    text-align: center;
+}
